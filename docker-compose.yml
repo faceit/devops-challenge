@@ -1,0 +1,21 @@
+version: '3.1'
+
+services:
+  go:
+    build: .
+    restart: unless-stopped
+    networks:
+      - devops-challenge
+    ports:
+      - "8080:8080"
+  db:
+    image: postgres:13-alpine
+    restart: unless-stopped
+    environment:
+      - POSTGRES_PASSWORD=mysecretpassword
+    networks:
+      - devops-challenge
+
+networks:
+  devops-challenge:
+    external: false

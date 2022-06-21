@@ -15,7 +15,7 @@ import (
 
 type AppConfig struct {
 	Port             int    `envconfig:"PORT" default:"8080"`
-	PostgresHost     string `envconfig:"POSTGRESQL_HOST" default:"localhost"`
+	PostgresHost     string `envconfig:"POSTGRESQL_HOST" default:"db"`
 	PostgresPort     int    `envconfig:"POSTGRESQL_PORT" default:"5432"`
 	PostgresUser     string `envconfig:"POSTGRESQL_USER" default:"postgres"`
 	PostgresPassword string `envconfig:"POSTGRESQL_PASSWORD" default:"mysecretpassword"`
