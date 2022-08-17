@@ -70,7 +70,7 @@ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build ./cmd/ops-test-app
 First we need a running postgres server, if you don't already have one it can be achieved using docker:
 
 ```bash
-docker run --rm --name=postrgres -p 5432:5432 -e POSTGRES_PASSWORD=mysecretpassword -d postgres:13-alpine
+docker run --rm --name=postgres -p 5432:5432 -e POSTGRES_PASSWORD=mysecretpassword -d postgres:13-alpine
 ```
 
 Then to run the application itself you can run:
