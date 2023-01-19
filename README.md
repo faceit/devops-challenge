@@ -11,23 +11,26 @@ This is not about website content or UI.
 ## Requirements
 
 - Deliver the tooling to set up the application using Terraform on the cloud platform of your choice (free tiers are fine)
-- Provide basic architecture diagrams and documentation on how to initialise the infrastructure along with any other documentation you think is appropriate
-- Provide and document a mechanism for scaling the service and delivering the application to a larger audience
+- Provide basic architecture diagrams of your solution and documentation on how to initialise the infrastructure
+- Document a mechanism for scaling the service, and ensuring high availability
 - Describe a possible solution for CI and/or CI/CD in order to release a new version of the application to production without any downtime
 
 Be prepared to explain your choices
 
-## Extra Mile Bonus (not a requirement)
+## Evaluation
 
-In addition to the above, time permitting, consider the following suggestions for taking your implementation a step further:
+We are looking for:
 
-- Monitoring/Alerting
-- Implement CI/CD (github actions, travis, circleci, ...)
-- Security
+- _your_ solution to this problem, without constraints on platforms/technologies used _except for Terraform_.
+- _your_ design, and reasoning on the solution, more so than implementation details.
+
+We are not looking:
+
+- specific platforms.
+- shiny new technologies.
 
 ## General guidance
 
 - We recommend using this repository as a starting point, you can clone it and add your code/docs to that repository
 - Please do no open pull request with your challenge against **this repository**
 - Submission of the challenge can be done either via your own public repository or zip file containing `.git` folder
-
