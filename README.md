@@ -14,8 +14,7 @@ This is not about website content or UI.
 - Provide basic architecture diagrams and documentation on how to initialise the infrastructure along with any other documentation you think is appropriate
 - Provide and document a mechanism for scaling the service and delivering the application to a larger audience
 - Describe a possible solution for CI and/or CI/CD in order to release a new version of the application to production without any downtime
-
-Be prepared to explain your choices
+- Explain your choices
 
 ## Extra Mile Bonus (not a requirement)
 
